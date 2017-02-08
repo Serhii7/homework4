@@ -1,0 +1,11 @@
+aside, nav, footer, header, section,content{ 
+	display: block 
+}
+/*Для любимого IE*/
+body{
+	font-family: Arial;
+}
+.sidename{
+	color:#9a847e;
+	font-size: 24px;
+}
