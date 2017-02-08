@@ -116,7 +116,7 @@ ul li a{
 	padding: 19px 0;
 	line-height: 1.4;
 }
-.text p{
+.text p:first-child{
 	margin-top: 0;
 	color:#a94442;;
 }
