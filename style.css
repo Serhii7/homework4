@@ -5,7 +5,50 @@ aside, nav, footer, header, section,content{
 body{
 	font-family: Arial;
 }
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;
+}
 .sidename{
 	color:#9a847e;
 	font-size: 24px;
+	padding-top: 25px;
+}
+ul{
+	overflow: hidden;
+	padding-left: 0;
+	display: table;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+ul li{
+	list-style-type: none;
+	display: table-cell;
+	width: 1%;
+	/*Генератор градиенда*/
+	background: #f1f1f1;
+	background: -webkit-linear-gradient(#f1f1f1 0%, #d8d8d8 100%);
+	background: -o-linear-gradient(#f1f1f1 0%, #d8d8d8 100%);
+	background: linear-gradient(#f1f1f1 0%, #d8d8d8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#d8d8d8',GradientType=0 );
+
+}
+ul li:first-child a{
+	border-left: 1px solid #d5d5d5;
+	border-radius: 10px 0 0 10px;
+}
+ul li a{
+	display: block;
+	text-decoration: none;
+	border-right: 1px solid #d5d5d5;
+	border-top: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+	border-left: 1px solid #fff;
+	padding: 15px 5px;
+	text-align: center;
+	box-sizing: border-box;
+	color: #867c74;
+	font-size: 15px;
+	font-weight: bold;
 }
